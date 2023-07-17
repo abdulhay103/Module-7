@@ -1,9 +1,10 @@
 import React from "react";
+import SectionHeader from "../components/headers/sectionHeader";
 
 const About = () => {
   return (
     <div>
-      <h1>About</h1>
+      <SectionHeader sectionHeader="About Section" />
     </div>
   );
 };
