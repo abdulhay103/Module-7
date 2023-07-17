@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <header className="">
-      <nav className="flex justify-around">
+    <header className="bg-white fixed w-full">
+      <nav className=" container mx-auto py-3 flex justify-between ">
         <div className="logo">
           <Link to="/">Module-7</Link>
         </div>
