@@ -6,15 +6,16 @@ import Header from "./components/header/Header";
 
 const App = () => {
   return (
-    <Router>
-      <div className="w-full min-h-screen bg-orange-100">
-        <Header />
-        <Routes>
-          <Route exact path="/" Component={Home} />
-          <Route exact path="/about" Component={About} />
-        </Routes>
-      </div>
-    </Router>
+    // <Router>
+    //     <Header />
+    //     <Routes>
+    //       <Route exact path="/" Component={Home} />
+    //       <Route exact path="/about" Component={About} />
+    //     </Routes>
+    // </Router>
+    <div className="w-full min-h-screen bg-orange-100">
+      <Header />
+    </div>
   );
 };
 
