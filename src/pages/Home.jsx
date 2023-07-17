@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import SectionHeader from "../components/headers/sectionHeader";
 import Button from "../components/utilities/Button";
-import { list } from "postcss";
 
 const Home = () => {
   let [itemList, setItemList] = useState([]);
